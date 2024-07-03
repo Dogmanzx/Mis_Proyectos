@@ -1,0 +1,109 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills li {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px 0;
+    margin-top: 20px; /* Ajuste para separar del header */
+}
+
+.projects {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto; /* Centrar la sección */
+    text-align: center; /* Alinear contenido al centro */
+}
+
+.projects h2 {
+    margin-bottom: 20px; /* Separación entre título y proyectos */
+    color: #333;
+}
+
+.project {
+    display: inline-block; /* Mostrar proyectos en línea */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    margin: 10px; /* Espacio entre proyectos */
+    vertical-align: top; /* Alinear al inicio del contenedor */
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.project p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.project a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project a:hover {
+    background-color: #0056b3;
+}
